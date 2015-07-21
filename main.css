@@ -1,0 +1,50 @@
+.row {
+  display: block;
+  border: dotted black 1px;
+  clear: both;
+  margin: 1em;
+  padding: 1em;
+  position: relative;
+  overflow: auto;
+}
+
+.col-1 {
+  float: left;
+  display: inline;
+  text-align: center;
+  border: solid black 1px;
+  margin: .2em;
+  width: 55px;
+  height: 40px;
+}
+
+.col-4 {
+  float: left;
+  border: solid black 1px;
+  width: 33%;
+  text-align: center;
+  position: absolute;
+  top: 3em;
+  left: 1em;
+  height: 200px
+}
+
+.col-6 {
+  text-align: center;
+  border: solid black 1px;
+  width: 45%;
+  height: 200px;
+  display: inline-block;
+  margin: 1em;
+}
+
+.col-8 {
+  float: left;
+  border: solid black 1px;
+  width: 65%;
+  text-align: center;
+  margin-left: 35%;
+  height: 300px;
+  margin-top: 14px;
+
+}
